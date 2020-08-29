@@ -1,17 +1,29 @@
 <template>
   <div>
-    <Header></Header>
+    <Navbar></Navbar>
     <Hero></Hero>
-    <Content></Content>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-3">
+            <Aside></Aside>
+          </div>
+          <div class="column is-9">
+            <Content></Content>
+          </div>
+        </div>
+      </div>
+    </section>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Aside from "./Aside.vue";
 import Content from "./Content.vue";
 import Footer from "./Footer.vue";
-import Header from "./Header.vue";
 import Hero from "./Hero.vue";
+import Navbar from "./Navbar.vue";
 
 export default {
   data() {
@@ -19,6 +31,6 @@ export default {
       message: "Middleman is Running",
     };
   },
-  components: { Content, Footer, Header, Hero },
+  components: { Aside, Content, Footer, Hero, Navbar },
 };
 </script>

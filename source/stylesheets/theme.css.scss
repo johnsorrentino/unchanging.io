@@ -1,0 +1,65 @@
+// Color Palette - https://www.happyhues.co/palettes/9
+$background: #eff0f3;
+$headline: #0d0d0d;
+$paragraph: #2a2a2a;
+$button: #ff8e3c;
+$button-text: #0d0d0d;
+$stroke: #0d0d0d;
+$main: #eff0f3;
+$highlight: #ff8e3c;
+$secondary: #fffffe;
+$tertiary: #d9376e;
+
+// Bulma
+.navbar {
+  background-color: $background;
+}
+.navbar-brand a.navbar-item {
+  color: $headline;
+}
+.hero {
+  background-color: $background;
+}
+.title {
+  color: $headline;
+}
+.subtitle {
+  color: $paragraph;
+}
+.button {
+  color: $button-text;
+  background-color: $button;
+}
+.footer {
+  background-color: $background;
+}
+
+// SVG - https://www.drawkit.io/product/grape-illustration-pack
+.cls-1 {
+  fill: $secondary;
+}
+.cls-2 {
+  fill: $main;
+}
+.cls-3,
+.cls-5 {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4.78px;
+}
+.cls-3 {
+  stroke: $stroke;
+}
+.cls-4 {
+  fill: $tertiary;
+}
+.cls-5 {
+  stroke: $stroke;
+}
+.cls-6 {
+  fill: $stroke;
+}
+.cls-7 {
+  fill: $highlight;
+}
